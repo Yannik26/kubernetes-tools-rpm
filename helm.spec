@@ -1,11 +1,12 @@
 Name:           helm
-Version:        3.13.3
+Version:        3.15.4
 Release:        1%{?dist}
 Summary:        Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
 URL:            https://github.com/helm/helm
 License:        Apache-2.0
-Source0:        helm-%{version}.tar.gz
+Source0:        https://github.com/helm/helm/archive/refs/tags/v%{version}.tar.gz
 
+BuildRequires:  golang
 
 Provides:       %{name} = %{version}
 
