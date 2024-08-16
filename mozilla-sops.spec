@@ -1,5 +1,5 @@
 Name:           sops
-Version:        3.7.3
+Version:        3.9.0
 Release:        1%{?dist}
 Summary:        sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP
 
@@ -28,7 +28,7 @@ sops is an editor of encrypted files that supports YAML, JSON, ENV, INI and BINA
 GOPROXY=https://proxy.golang.org go mod tidy
 GOPROXY=https://proxy.golang.org go mod vendor
 
-CGO_ENABLED=0 GOPROXY=https://proxy.golang.org go build -mod vendor -ldflags=-linkmode=external -o %{name} go.mozilla.org/sops/v3/cmd/sops
+CGO_ENABLED=1 GOPROXY=https://proxy.golang.org go build -mod vendor -ldflags=-linkmode=external -o %{name} github.com/getsops/sops/v3/cmd/sops
 
 
 %install
