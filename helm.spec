@@ -7,6 +7,7 @@ License:        Apache-2.0
 Source0:        https://github.com/helm/helm/archive/refs/tags/v%{version}.tar.gz
 
 BuildRequires:  golang
+BuildRequires:  git
 
 Provides:       %{name} = %{version}
 
