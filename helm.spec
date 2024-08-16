@@ -27,7 +27,7 @@ Helm helps you manage Kubernetes applications — Helm Charts help you define, i
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_bindir}/
-cp %{_bindir}/%{name} %{buildroot}%{_bindir}/
+cp bin/%{name} %{buildroot}%{_bindir}/
 
 
 
@@ -48,5 +48,5 @@ cp %{_bindir}/%{name} %{buildroot}%{_bindir}/
 
 
 %changelog
-* Wed January 17 2024 Yannik Mueller - 3.13.3-1
+* Fri August 16 2024 Yannik Mueller - 3.15.4-1
 - Initial release

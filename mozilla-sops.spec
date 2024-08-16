@@ -50,5 +50,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 
 
 %changelog
+* Fri August 16 2024 Yannik Müller - 3.9.0-1
+- Updated to upstream version 3.9.0
+- changes build command to reflect ustream changes in go build command
 * Wed June 14 2023 Yannik Müller - 3.7.3-1
 - Initial release

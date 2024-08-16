@@ -48,6 +48,6 @@ cp kubeseal %{buildroot}%{_bindir}/
 %doc README.md
 
 
-# %changelog
-# * Wed January 17 2024 Yannik Mueller - 3.13.3-1
-# - Initial release
+%changelog
+* Wed August 16 2024 Yannik Mueller - 0.27.1-1
+- Initial release
