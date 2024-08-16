@@ -8,6 +8,7 @@ License:        Apache-2.0
 Source0:        sealed-secrets-0.27.1.tar.gz
 
 BuildRequires:  golang
+BuildRequires:  git
 
 Provides:       kubeseal = %{version}
 
