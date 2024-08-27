@@ -8,6 +8,7 @@ Source0:        https://github.com/derailed/k9s/archive/refs/tags/v%{version}.ta
 # Source0:        sealed-secrets-0.27.1.tar.gz
 
 BuildRequires: golang
+BuildRequires: git
 
 Provides:       %{name} = %{version}
 
