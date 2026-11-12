@@ -1,5 +1,5 @@
 Name:           k9s
-Version:        0.50.18
+Version:        0.51.0
 Release:        1%{?dist}
 Summary:        K9s provides a terminal UI to interact with your Kubernetes clusters
 URL:            https://k9scli.io/
